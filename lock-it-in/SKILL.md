@@ -42,6 +42,7 @@ Before answering anything about a topic the file covers (prices, names, rules, p
 - Dates are real dates, never "today" or "last week".
 - A guess or idea is not a decision. Only lock what the user actually decided.
 - Never treat "we might" or "maybe" as locked.
+- Killed ideas get locked too ("Decision: no free trial"). Never suggest a killed idea again unless the user brings it back.
 
 ## To make every new chat read it
 Add this line to the project instructions (CLAUDE.md in Claude Code, or the project's custom instructions in the Claude app):

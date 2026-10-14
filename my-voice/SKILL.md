@@ -8,7 +8,10 @@ description: 'Write emails, texts and posts that sound like the user, learned fr
 AI can copy how you sound and still put a wrong fact in your mouth. A robotic sentence gets rewritten. A wrong fact gets believed. This skill does both jobs: it sounds like you, and it only says things that are true.
 
 ## Setup (once)
-Ask the user to paste 10 to 20 messages they actually sent: emails, texts, DMs. Real ones, not their best writing. Save them to a file called `my-voice-samples.md` in the project (or keep them in the chat if there is no project). If samples already exist, use them and skip this.
+Ask the user to paste 10 to 20 messages they actually sent: emails, texts, DMs. Real ones, not their best writing. Tell them to remove anything private first (phone numbers, addresses, account numbers, other people's details). Save them so every chat can use them:
+- Claude Code: a file called `my-voice-samples.md` in the project.
+- Claude app: tell the user to add `my-voice-samples.md` to the Project's files, or paste the samples again in a new chat.
+If samples already exist, use them and skip this.
 
 From the samples, write down a short profile at the top of the file:
 - typical length (count the words in each sample and take the middle one)
@@ -24,7 +27,7 @@ Before writing a word, list every factual claim the message will make: dates, nu
 - **CHECKED:** you can point to where it came from (a file, the thread, something the user just told you).
 - **NOT CHECKED:** anything else.
 
-A NOT CHECKED claim either gets removed or turned into a question. Never soften it into vague wording and leave it in.
+Anything you cannot back up gets cut. If the message needs it, turn it into a question instead. Never soften it into vague wording and leave it in.
 
 Watch for these:
 - **A quote you only saw in notes, not in the original source.** Cut it or find the source.

@@ -44,7 +44,7 @@ For each of these, decide who wins and write it down:
 7. Trust: which looks more like a real, established business?
 
 ## 5. Fix every spot where yours is not clearly better
-A tie is a loss. For each item where the competitor wins or ties, fix your page, re-render and compare again. Repeat until yours wins every row.
+You are not grading your page on its own. You are grading it against the best. A tie is a loss. For each item where the competitor wins or ties, fix your page, re-render and compare again. Repeat until yours wins every row.
 
 ## 6. Hand it over
 Show the final side by side screenshots on phone and laptop, the scorecard with every row won, and a list of placeholders that need real content (photos, reviews, numbers). Never present invented reviews or numbers as real.
